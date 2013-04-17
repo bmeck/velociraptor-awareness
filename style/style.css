@@ -2,6 +2,12 @@ html, body {
   margin: 0;
   padding: 0;
 }
+@media (min-width: 480px) {
+  body {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
 a {
   color: orange;
 }
@@ -15,8 +21,6 @@ html {
   background-repeat: no-repeat;
 }
 body {
-  margin-left: 20%;
-  margin-right: 20%;
   background: rgba(0,0,0,0.7);
   font-family: Georgia, Helvetica, Tahoma;
   color: white;
