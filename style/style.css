@@ -18,7 +18,7 @@ body {
   margin-left: 20%;
   margin-right: 20%;
   background: rgba(0,0,0,0.7);
-  font-family: arial;
+  font-family: Georgia, Helvetica, Tahoma;
   color: white;
 }
 section {
@@ -30,6 +30,7 @@ h1 {
   font-size: 2.5em;
 }
 h1,h2,h3 {
+  font-family: arial;
   margin: 0;
   margin-bottom: 1ex;
   text-align: center;
