@@ -2,10 +2,14 @@ html, body {
   margin: 0;
   padding: 0;
 }
+a {
+  color: orange;
+}
 html {
   height: 100%;
   width: 100%;
   background-color: rgb(80,150,100);
+  background-attachment: fixed;
   background-image: url('../assets/bg.jpg');  
   background-size: cover;
   background-repeat: no-repeat;
@@ -33,6 +37,7 @@ h1 {
 }
 h1,h2,h3 {
   margin: 0;
+  margin-bottom: 1ex;
   text-align: center;
   color: orange;
 }
