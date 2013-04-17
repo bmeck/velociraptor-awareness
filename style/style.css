@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(80,150,100);
+  background-image: url('../assets/bg.jpg');  
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body {
+  margin-left: 20%;
+  margin-right: 20%;
+  background: rgba(0,0,0,0.5);
+  font-family: arial;
+  color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+section {
+  margin: 0;
+  padding: 3ex;
+  clear: both;
+}
+h1 {
+  font-size: 2.5em;
+}
+h1,h2,h3 {
+  margin: 0;
+  text-align: center;
+  color: orange;
+}
+p {
+  margin-bottom: 0;
+}
